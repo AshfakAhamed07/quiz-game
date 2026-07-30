@@ -52,7 +52,6 @@ body {
   font-size: 1.1rem;
 }
 
-
 .quiz-header {
   margin-bottom: 2rem;
 }
@@ -159,33 +158,32 @@ button {
 }
 
 button:hover {
-   background-color: #d45b28;
+  background-color: #d45b28;
 }
 
 /* Responsive design */
 
-@media (max-width:500px) {
- /* When we hit 500px and below implement the stles below  */
+@media (max-width: 500px) {
+  /* When we hit 500px and below implement the stles below  */
 
- .screen {
+  .screen {
     padding: 1rem;
- }
+  }
 
- #start-screen h1 {
+  #start-screen h1 {
     font-size: 2rem;
- }
+  }
 
- #question-text {
-  font-size: 1.3rem;
-}
+  #question-text {
+    font-size: 1.3rem;
+  }
 
-.answer-btn {
-  padding: 12px;
-}
+  .answer-btn {
+    padding: 12px;
+  }
 
-button {
+  button {
     padding: 12px 25px;
     font-size: 1rem;
-}
-
+  }
 }
