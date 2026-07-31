@@ -84,13 +84,13 @@ You can add a screenshot of the application here after completing the project.
 
 ## 🔮 Future Improvements
 
-* Randomize question order
-* Add a timer for each question
-* Shuffle answer choices
-* Load questions from an external JSON file
-* Add difficulty levels
-* Store high scores using Local Storage
-* Add animations and sound effects
+* Randomize question order [X]
+* Add a timer for each question []
+* Shuffle answer choices []
+* Load questions from an external JSON file []
+* Add difficulty levels []
+* Store high scores using Local Storage []
+* Add animations and sound effects []
 
 ---
 
