@@ -95,6 +95,9 @@ function showQuestion() {
 
   const currentQuestion = quizQuestions[currentQuestionIndex];
 
+    // Shuffle answers
+  shuffleArray(currentQuestion.answers);
+
   currentQuestionSpan.textContent = currentQuestionIndex + 1;
 
   const progressPercent = (currentQuestionIndex / quizQuestions.length) * 100;
