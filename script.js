@@ -80,6 +80,9 @@ function startQuiz() {
   score = 0;
   scoreSpan.textContent = 0;
 
+  // Shuffle the questions
+  shuffleArray(quizQuestions);
+
   startScreen.classList.remove("active");
   quizScreen.classList.add("active");
 
@@ -113,6 +116,18 @@ function showQuestion() {
 
     answersContainer.appendChild(button);
   });
+}
+
+// Shuffling the questions instead of 1-5 order
+
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    // Pick a random index from 0 to i
+    const randomIndex = Math.floor(Math.random() * (i + 1));
+
+    // Swap elements
+    [array[i], array[randomIndex]] = [array[randomIndex], array[i]];
+  }
 }
 
 function selectAnswer(event) {
